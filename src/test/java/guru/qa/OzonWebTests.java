@@ -18,7 +18,7 @@ public class OzonWebTests {
 
     @CsvSource({
             "Электроника, Смартфоны",
-            ", Психология"
+            "Книги, Психология"
     })
     @ParameterizedTest(name = "Проверка раздела меню: {0}")
     void ozonMenuItemsCheckTest(String menuItem, String subMenuItem) {
